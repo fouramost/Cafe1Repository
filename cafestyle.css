@@ -1,0 +1,240 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+#root {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+}
+
+.App {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+}
+
+.column {
+	width: 50%;
+	min-height: 100vh;
+	background-color: #e7e7e7;
+	z-index: 999;
+}
+
+.content {
+	width: 1000px;
+	min-height: 100vh;
+	z-index: 1000;
+}
+
+.rnc_base {
+	height: 100%;
+	pointer-events: none;
+	position: fixed;
+	width: 100%;
+	z-index: 9000;
+}
+
+.rnc_notification-container--top-full {
+	min-width: 100%;
+	width: 100%;
+}
+
+.rnc_notification-container--bottom-full {
+	min-width: 100%;
+	width: 100%;
+	bottom: 0;
+}
+
+.rnc_notification-container--top-left {
+	left: 20px;
+	top: 20px;
+}
+
+.rnc_notification-container--top-left {
+	min-width: 325px;
+	pointer-events: all;
+	position: absolute;
+}
+
+.rnc_notification-container--top-left {
+	min-width: 325px;
+	pointer-events: all;
+	position: absolute;
+	right: 20px;
+	top: 20 px;
+}
+
+.rnc_notification-container--bottom-left {
+	min-width: 325px;
+	pointer-events: all;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+.rnc_notification-container--bottom-right {
+	min-width: 325px;
+	pointer-events: all;
+	position: absolute;
+	bottom: 20px;
+	right: 20 px;
+}
+
+.rnc_notification-container--top-center {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	left: calc(50% - 175px);
+	max-width: 350px;
+	top: 20px;
+}
+
+.rnc_notification-container--center {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	left: calc(50% - 175px);
+	max-width: 350px;
+	height: 100%;
+	pointer-events: none;
+	top: 20px;
+}
+
+.rnc_notification-container--top-center {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	left: calc(50% - 175px);
+	max-width: 350px;
+	bottom: 20px;
+}
+
+.rnc_util--flex-center {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 325px;
+	pointer-events: all;
+}
+
+._main_1 {
+	postion: relative;
+	width: 1000px;
+	min-height: 100vh;
+	display: flex;
+	padding-bottom: 20px;
+	flex-direction: column;
+	background-color: #fff;
+}
+
+._restaurant_name {
+	width: fit-content;
+	padding: 0 24px;
+	margin-top: 54px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	margin-bottom: 14px;
+	cursor: default;
+}
+
+._menu_gikh {
+	margin-top: 8px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 24px;
+	transition: .1s linear;
+}
+
+.mealTimeName {
+	margin-top: 20px;
+	font-weight: 600;
+	font_size: 24px;
+	line-height: 28.64px;
+	cursor: default;
+	transition: .1s linear;
+}
+
+.blockwrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 14px 0;
+	border-bottom: 1px solid #E7E7E7;
+	color: #000000e6;
+	transition: .1s linear;
+}
+
+._block {
+	width: 100%;
+	display: flex;
+	align-items: felx-start;
+}
+
+._blockpreview {
+	position: relative;
+	min-width: 138px;
+	max-width: 138px;
+	min-height: 138px;
+	max-height: 138px;
+	margin-right: 14px;
+	border-radius: 12px;
+}
+
+._info1 {
+	width: 100%;
+	min-height: 138px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+._info1Upper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+._name1info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: inherit;
+    margin-bottom: 8px;
+    opacity: .9;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+._info1Bottom {
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+._info1price {
+	text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: inherit;
+    opacity: .9;
+    white-space: pre-wrap;
+}
